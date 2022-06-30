@@ -1,9 +1,10 @@
 :root {
   --blue: #60707f;
-  --white: #ffffff;
+  --white: #fff;
   --skyBlue: #61dafb;
   --grey: rgb(217, 206, 206);
 }
+
 .text-center {
   text-align: center;
 }
@@ -17,24 +18,30 @@
   gap: 20px;
   align-self: center;
 }
+
 .display-none {
   display: none;
-};
-.flex {
-display: flex;
 }
+
+.flex {
+  display: flex;
+}
+
 .competition-container {
   display: flex;
   flex-direction: column;
-  background: rgb(39,39,39,1);
+  background: rgb(39, 39, 39, 1);
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
   color: white;
 }
-.competition-show-list,.competition-list {
+
+.competition-show-list,
+.competition-list {
   margin-top: 10px;
 }
+
 .competition-list li {
   transition: 1s;
 }
