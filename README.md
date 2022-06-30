@@ -1,6 +1,6 @@
 # React-Redux Group Project
-## Video Description of the app by author.
-[Here is the video description](https://www.loom.com/share/c9bda0a2f7204b4e8b3a0aef3b4508de)
+## Project Vido Description of the app by author.
+[Here is the project video description](https://www.loom.com/share/c9bda0a2f7204b4e8b3a0aef3b4508de)
 
 About
 This app shows live football games scores and highlights as well as the next games.
