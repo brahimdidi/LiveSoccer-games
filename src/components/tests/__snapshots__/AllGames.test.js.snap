@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllGames Test renders correctly 1`] = `
+<div
+  className="allGames-app"
+>
+  <nav
+    className="allGames-nav"
+  >
+    <button
+      className="btn btn-active"
+      onClick={[Function]}
+      type="button"
+    >
+      All Games
+    </button>
+    <button
+      className="btn "
+      onClick={[Function]}
+      type="button"
+    >
+      TodayGames
+    </button>
+  </nav>
+  <ul
+    className="games-container"
+  >
+    <h1
+      className="text-danger"
+    >
+      Check your internet Again
+    </h1>
+  </ul>
+</div>
+`;
