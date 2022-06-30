@@ -1,38 +1,140 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+:root {
+  --blue: #60707f;
+  --white: #ffffff;
+  --skyBlue: #61dafb;
+}
+body {
+  background-color: rgb(76, 73, 73);
+}
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* styling the main navbar (header) */
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  background-color: rgba(38,38,38,1);
+  max-height: 150px;
 }
+a {
+  color: white;
+}
+header img  {
+  max-width: 80px;
+  max-height: 80px;
+}
+.header-logo-and-name{
+  color: whitesmoke;
+}
+header nav {
+  display: flex;
+  gap: 1rem;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.navLink {
+ padding: 10px;
+ border-radius: 10px;
+ font-size: 20px;
+}
+.allGames-app {
+  width: 90%;
+  max-width: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.games-container {
+  border: 1px solid ghostwhite;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+.games-container li {
+  background-color: rgba(39,39,39,1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.allGames-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-bottom: 2px solid var(--blue);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.competition , .league-name {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(35,35,35,1);
+}
+.league-name h1  {
+  font-size: 1.25rem;
+}
+.competition h1{
+  font-size: 1rem;
+  padding-right: 2.5rem;
+  word-wrap: wrap;
+}
+.competition svg,.league-name svg {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+.title-time {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.date {font-size: 0.75rem;}
+.title-time h3 {font-size: 1.25rem;font-weight: bold;}
+.btn {
+  border: 1px solid #ebe9e9;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'emoji';
 }
 
-.App-link {
-  color: #61dafb;
+.allGames-nav button:hover {
+  opacity: 0.8;
+  font-weight: bold;
+}
+.btn-active {
+  border-bottom:4px solid  #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width:700px) {
+  .competition h1,.title-time h3, .league-name{
+    font-size: 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  .date,.competition-date {font-size: 1rem;}
+  .Competitions-container {
+    margin: unset;
   }
+  
 }
