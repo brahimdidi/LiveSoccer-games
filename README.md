@@ -19,7 +19,7 @@ This app shows live football games scores and highlights as well as the next gam
 
 ## Live Demo
 
-- [live](https://footlive.netlify.app/)
+- [live](https://foolive.netlify.app/)
 
 ## Getting Started
 
