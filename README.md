@@ -72,7 +72,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Credit to  Nelson Sakwa for the design.
 - Hat tip to anyone whose code was used
 - Microverse program
 - Microverse team
