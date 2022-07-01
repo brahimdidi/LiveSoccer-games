@@ -19,15 +19,24 @@ This app shows live football games scores and highlights as well as the next gam
 
 ## Live Demo
 
+<<<<<<< HEAD
+- [live](https://foolive.netlify.app/)
+-backup demo with heroku : https://footlive.herokuapp.com/
+=======
 - [live](https://footlive.netlify.app/)
 
+>>>>>>> dev
 ## Getting Started
 
 To get a local copy up and running follow these setup steps.
 
 **Setup**
 
+<<<<<<< HEAD
+- Open terminal and clone the project: `git clone git@github.com:brahimdidi/live-soccer-games.git`
+=======
 - Open terminal and clone the project: `git clone git@github.com:brahimdidi/live-soccer-games`
+>>>>>>> dev
 - cd into the directory `live-soccer-games`
 
 **Prerequisites**
@@ -72,7 +81,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Credit to  Nelson Sakwa for the design.
 - Hat tip to anyone whose code was used
 - Microverse program
 - Microverse team

@@ -1,0 +1,49 @@
+:root {
+  --blue: #60707f;
+  --white: #fff;
+  --skyBlue: #61dafb;
+  --grey: rgb(217, 206, 206);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.Competitions-container {
+  width: 80%;
+  max-width: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-self: center;
+}
+
+.display-none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.competition-container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(39, 39, 39, 1);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.competition-show-list,
+.competition-list {
+  margin-top: 10px;
+}
+
+.competition-list li {
+  transition: 1s;
+}
