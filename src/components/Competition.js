@@ -68,7 +68,7 @@ function Competition() {
            <h1>Nations league (lastest games)</h1>
            <IoIosArrowDropdown onClick={() => setNationsLeague(!showNationsLeague)} />
          </div>
-         <ul className={`competition-list ${showNationsLeague ? 'display-flex' : 'display-none'}`}>
+         <ul className={`competition-list ${showNationsLeague ? 'flex' : 'display-none'}`}>
            {nationsLeague.length ? ((nationsLeague.map((league) => (itemJsx(league))))) : leagueEmpty('Premier League') }
          </ul>
        </div>
@@ -87,7 +87,7 @@ function Competition() {
            <IoIosArrowDropdown onClick={() => setSerieA(!showSerieA)} />
          </div>
 
-         <ul className={`competition-list ${showSerieA ? 'display-flex' : 'display-none'}`}>
+         <ul className={`competition-list ${showSerieA ? 'flex' : 'display-none'}`}>
 
            {serieA.length ? ((serieA.map((league) => (itemJsx(league))))) : leagueEmpty('Serie A') }
          </ul>
@@ -97,7 +97,7 @@ function Competition() {
            <h1>Premier League (lastest games)</h1>
            <IoIosArrowDropdown onClick={() => setPremierLeague(!showPremierLeague)} />
          </div>
-         <ul className={`competition-list ${showPremierLeague ? 'display-flex' : 'display-none'}`}>
+         <ul className={`competition-list ${showPremierLeague ? 'flex' : 'display-none'}`}>
 
            {premierLeague.length ? ((premierLeague.map((league) => (itemJsx(league))))) : leagueEmpty('Nations League') }
          </ul>
@@ -107,7 +107,7 @@ function Competition() {
            <h1>Club Friendlies (lastest games)</h1>
            <IoIosArrowDropdown onClick={() => setFriendlies(!showFriendlies)} />
          </div>
-         <ul className={`competition-list ${showFriendlies ? 'display-flex' : 'display-none'}`}>
+         <ul className={`competition-list ${showFriendlies ? 'flex' : 'display-none'}`}>
 
            {friendlies.length ? ((friendlies.map((league) => (itemJsx(league))))) : leagueEmpty('Friendlies ') }
          </ul>
@@ -117,7 +117,7 @@ function Competition() {
            <h1>AFC CUP (lastest games)</h1>
            <IoIosArrowDropdown onClick={() => setAfcCup(!showAfcCup)} />
          </div>
-         <ul className={`competition-list ${showAfcCup ? 'display-flex' : 'display-none'}`}>
+         <ul className={`competition-list ${showAfcCup ? 'flex' : 'display-none'}`}>
 
            {afcCup.length ? ((afcCup.map((league) => (itemJsx(league))))) : leagueEmpty('AFC CUP ') }
          </ul>
@@ -134,7 +134,7 @@ function Competition() {
               (lastest games)
             </h1>
           </div>
-          <ul className="competition-show-list">
+          <ul className="competition-show-list flex">
             {showCompetition.length
               ? ((showCompetition.map((league) => (itemJsx(league)))))
               : leagueEmpty(showCompetition.competition) }
