@@ -43,6 +43,8 @@
 .competition-list {
   margin-top: 10px;
 }
+.competition-show-list {
+}
 
 .competition-list li {
   transition: 1s;

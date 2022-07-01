@@ -6,7 +6,8 @@ import logo from '../images/liveScoreLogo.png';
 export default function Header() {
   const navStyles = ({ isActive }) => ({
     fontWeight: isActive ? 'bold' : 'normal',
-    background: isActive ? 'blue' : 'none',
+    background: isActive ? 'white' : 'none',
+    color: isActive ? 'black' : 'white',
   });
 
   return (
